@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Não reescreve ficheiros ou pastas reais
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Front controller: tudo vai para index.php
+RewriteRule ^ index.php [L,QSA]
