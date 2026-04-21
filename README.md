@@ -1,41 +1,31 @@
-Exemplo Prático Simples Docker Composer (Prof Hugo Rafael)
 
-Agora, dentro da pasta onde está o docker-compose.yml, execute:
+Aqui vai uma descrição pronta, profissional e direta pra usar no GitHub 👇
 
-docker-compose up -d
-Isso fará o PHP com Apache e o MySQL subirem juntos!
+---
 
-Para testar, acesse no navegador:
-http://localhost:8080/
+## 📌 Descrição do Projeto
 
-Se tudo estiver certo, você verá a mensagem:
-"Conectado ao MySQL com sucesso!"
+Sistema web simples para cadastro de alimentos desenvolvido com PHP e MySQL. A aplicação permite realizar operações básicas de CRUD (Create, Read, Update, Delete), possibilitando o gerenciamento de registros de forma prática e organizada.
 
-Se precisar parar os containers:
+O projeto foi criado com o objetivo de praticar conceitos fundamentais de desenvolvimento back-end, integração com banco de dados e construção de interfaces web funcionais.
 
-docker-compose down
+---
 
----Explicação!---
+## 🚀 Funcionalidades
 
-./Dockerfile
-Usa a imagem oficial PHP + Apache.
+* Cadastro de alimentos
+* Listagem de registros
+* Edição de dados
+* Exclusão de itens
+* Interface simples e intuitiva
 
-Instala a extensão mysqli para conectar ao MySQL.
+---
 
-Copia os arquivos da pasta src/ para dentro do servidor web no container.
+## 🛠️ Tecnologias Utilizadas
 
-Define a porta 80 para o Apache.
+* PHP
+* MySQL
+* HTML5
+* CSS3
 
-./docker-compose.yml
 
-Define dois serviços: php-apache e mysql.
-
-O MySQL cria um banco chamado meu_banco com o usuário e senha definidos.
-
-O PHP depende do MySQL (depends_on).
-
-Usa volumes para persistir os dados do banco mesmo se o container for removido.
-
-Cria uma rede Docker chamada minha-rede para comunicação entre os containers.
-
-Agora você tem um ambiente PHP + MySQL pronto para desenvolvimento! 
