@@ -1,5 +1,4 @@
-
-1. Descrição do Projeto
+ 1. Descrição do Projeto
 
 Sistema web simples para cadastro de alimentos desenvolvido com PHP e MySQL. A aplicação permite realizar operações básicas de CRUD (Create, Read, Update, Delete), possibilitando o gerenciamento de registros de forma prática e organizada.
 
@@ -7,7 +6,7 @@ O projeto foi criado com o objetivo de praticar conceitos fundamentais de desenv
 
 ---
 
-2. Funcionalidades
+  2. Funcionalidades
 
 * Cadastro de alimentos
 * Listagem de registros
@@ -17,7 +16,7 @@ O projeto foi criado com o objetivo de praticar conceitos fundamentais de desenv
 
 ---
 
-3. Tecnologias Utilizadas
+  3. Tecnologias Utilizadas
 
 * PHP
 * MySQL
